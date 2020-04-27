@@ -23,6 +23,10 @@ public class CartAction {
     private String[] ids;
     private Integer[] nums;
 
+    /**
+     * test *****
+     * @return
+     */
     public String changeCart() {
         ProductService service = new ProductServiceImpl();
         HttpSession session = ServletActionContext.getRequest().getSession();
