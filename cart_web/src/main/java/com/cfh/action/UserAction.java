@@ -16,6 +16,10 @@ public class UserAction {
     private String password;
     private User user;
 
+    /**
+     * 222
+     * @return
+     */
     public String execute() {
         UserServiceImpl userService = new UserServiceImpl();
         user = userService.login(username, password);

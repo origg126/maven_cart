@@ -18,6 +18,10 @@ public class ProductAction {
     private Integer index;
     private Integer page;
 
+    /**
+     * 111
+     * @return
+     */
     public String queryProducts() {
         if (index == null) {
             index = 1;
