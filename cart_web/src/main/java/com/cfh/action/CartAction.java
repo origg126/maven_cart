@@ -27,6 +27,10 @@ public class CartAction {
      * test *****123
      * @return
      */
+    /**
+     * idea
+     * @return
+     */
     public String changeCart() {
         ProductService service = new ProductServiceImpl();
         HttpSession session = ServletActionContext.getRequest().getSession();
